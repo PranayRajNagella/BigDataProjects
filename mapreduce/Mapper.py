@@ -14,16 +14,3 @@ for line in content:
         mylist.append(word)
 
 print(mylist)
-
-mynewlist=[1]
-for word in mylist:
-    if word in mymap:
-        print(f"inside the if {word}")
-        mymap[word]=mymap[word].append(2)
-    else:
-        mymap[word]=mynewlist
-       # print(mymap)
-
-print(mymap)
-
-
