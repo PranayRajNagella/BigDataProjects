@@ -1,16 +1,7 @@
 
-
-myfile=open("SampleString.txt", 'r')
-content=myfile.readlines()
-print(content)
-mytuple=()
-mylist=[]
-mymap={}
-
-for line in content:
-    firstline=line.split(" ")
-    for word in firstline:
-        print(f"{word}",1)
-        mylist.append(word)
-
-print(mylist)
+import sys
+for line in sys.stdin:
+    line = line.strip()
+    words = line.split()
+    for word in words:
+        print ('%s\t%s' % (word, 1))
