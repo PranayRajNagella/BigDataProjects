@@ -1,0 +1,10 @@
+1ANS) b,d
+2ANS) c
+3ANS) a
+4ANS) d
+5ANS) Program is Missing
+6ANS) b
+7ANS) d
+8ANS) a
+9ANS) d
+10ANS)d
